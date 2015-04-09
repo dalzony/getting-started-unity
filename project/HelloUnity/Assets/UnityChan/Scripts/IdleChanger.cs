@@ -75,10 +75,10 @@ namespace UnityChan
 
 		void OnGUI ()
 		{
-			GUI.Box (new Rect (Screen.width - 200, 10, 180, 200), "Change Motion");
-			if (GUI.Button (new Rect (Screen.width - 180, 40, 140, 70), "Next"))
+			GUI.Box (new Rect (Screen.width - 110, 10, 100, 90), "Change Motion");
+			if (GUI.Button (new Rect (Screen.width - 100, 40, 80, 20), "Next"))
 				anim.SetBool ("Next", true);
-			if (GUI.Button (new Rect (Screen.width - 180, 120, 140, 70), "Back"))
+			if (GUI.Button (new Rect (Screen.width - 100, 70, 80, 20), "Back"))
 				anim.SetBool ("Back", true);
 		}
 
